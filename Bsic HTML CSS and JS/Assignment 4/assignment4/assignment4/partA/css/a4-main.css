@@ -1,0 +1,103 @@
+/* Place all of your CSS Code in this file */
+
+/********************************************************************************* 
+*
+* WEB222 – Assignment #4a
+*
+* I declare that this assignment is my own work in accordance with Seneca 
+* Academic Policy. No part of this assignment has been copied manually or 
+* electronically from any other source (including web sites) or distributed to 
+* other students. 
+* 
+* Name: _____Fabio Bernal___________ Student ID: __036422103____________ Date: __7 / 8 / 2018______________ 
+* 
+********************************************************************************/
+body 
+{
+background-color: black;
+}
+
+#mainCSS
+{
+width: 1000px;
+margin:auto;
+background-color:rgb(24, 104, 158);
+}
+
+.app-title
+{
+color:red;
+font-size: 36px;
+font-family: Brush Script MT, Brush Script Std, cursive;
+margin-left:30px;
+}
+
+header
+{
+ margin:-20px auto;
+ padding: 5px;
+ background-color:  #FFE4E1;
+}
+
+nav
+{
+    background-color:red;
+}
+
+.main, .center
+{
+width:800px;
+margin:auto;
+}
+
+.main-table-container
+{
+position:static;
+border:1px solid #cccccc;
+height: 480px;
+width: 800px;
+overflow:auto;
+}
+
+.main-table-top th
+{
+padding:10px;
+color: red;
+font-size: 16px;
+font-family:Arial, Helvetica, sans-serif;
+text-align:left;
+}
+
+.main-table
+{
+ border:1px solid #cccccc;  
+}
+.main-table td
+{
+    padding: 10px;
+    text-align: justify;
+    display: table-cell;
+    vertical-align: inherit;
+    color: red;
+}
+
+span
+{
+ font-weight: bold;
+ font-style: italic;
+}
+
+.name
+{
+    font-style: normal;
+}
+
+footer
+{
+    background-color: red;    
+}
+
+footer.center
+{
+margin-left:60px;
+}
