@@ -1,0 +1,265 @@
+/*Index CSS  */
+
+body{
+    background-color:#f1e07c;
+}
+
+/* Styling the wrapper of the page*/
+#Top{
+    width:1000px;
+	margin:0 auto;
+	background-color:#95e8d6;
+    border-radius:50px;
+    padding: 50px 60px 50px 60px
+        
+}
+
+
+/* styling the header section of the page*/
+header{
+    padding:10px;
+    background-color:#f8e995;
+    border-bottom:1px solid #cccccc;
+    margin-bottom:50px;
+    border-radius: 30px;
+
+}
+
+header h1{
+    font-size:42px;
+    font-family: monospace;
+    font-weight: bold;
+    color:#72dfc7;
+    font-style:italic;
+    text-align: center;
+}
+
+/*styling the body section of the page*/
+
+
+section
+{
+    width:400px;
+    float:left;
+    padding:10px;
+    margin-left:15px;
+    background-color:#f8e995;
+    border-radius:15px;
+    margin-bottom:100px;
+  
+    
+
+}
+section h2{
+    text-align:center;
+    font-size:30px;
+    font-family: monospace;
+    font-style: italic bold;
+    color:#72dfc7;
+    
+}
+
+/* Honesty Policy */
+section p{
+    font-family: monospace;
+    color:#3a6159;
+}
+
+section span{
+    color:#72dfc7;
+    font-weight:bold;
+    font-family: monospace;
+}
+
+
+/* styling the navigation */
+nav
+{
+    width:200px;
+    padding:20px;
+    float:left;
+    background-color: #f8e995;
+    border-radius:15px;
+    height:350px;
+       
+}
+
+nav ul li{
+    list-style-type: square;
+    font-size:20px;
+    font-family: monospace;
+    border-bottom:3px solid #72dfc7;
+}
+nav ul li a
+{
+    text-decoration:aqua;
+}
+nav ul li a:link{
+    color:green;
+}
+nav ul li a:active{
+    color:red;
+}
+nav ul li a:visited{
+    color:blue;
+}
+
+nav ul li a:hover{
+    color:black;
+}
+/*Side Panel */
+
+aside
+{
+   
+    background-color: #f8e995;
+    border-radius: 15px;
+    width:250px;
+    padding:10px 10px 20px 25px;
+    float:left;
+    height:300px;
+    
+    margin-bottom:20px;
+    margin-left:15px;
+}
+
+/*styling side panel*/
+ aside ul li{
+    list-style-type: square;
+    padding:7px;
+    font-size:20px;
+    margin-right: 40px;
+    border-bottom:2px solid #72dfc7;  
+}
+
+
+ aside ul li a
+{
+    text-decoration:aqua;
+    font-family: monospace;
+}
+aside ul li a:visited
+{
+    color:#e48787;
+}
+
+aside ul li a:link
+{
+    color:green;
+}
+aside ul li a:active
+{
+    color:#72dfc7;
+}
+
+ aside ul li a:hover
+{
+    color:black;
+}
+aside h1
+{
+    font-family: monospace;
+    font-size: 30px;
+    color:#72dfc7;
+    font-style: italic;
+    
+}
+aside h3{
+    font-family: monospace;
+    font-size: 20px;
+    color:#72dfc7;
+    font-style: italic;
+}
+/*styling the footer*/
+footer
+{  
+    background-color:#f8e995;
+    padding:20px;
+    border-radius: 15px;
+    font-size:20px;
+    text-align:center;
+    clear:both;
+}
+footer span{
+    color:#72dfc7;
+    font-weight:bold;
+    font-family: monospace;
+}
+footer p{
+    color: #3a6159;
+    font-family: monospace;
+}
+
+
+
+
+
+
+/* styling the form section of the registration page*/
+#form {
+    padding:15px;
+  
+}
+input[type=text],input[type=password],input[type=email] {
+    width: 100%;
+    padding: 15px 20px;
+    margin: 3px 0;
+    box-sizing: border-box;
+}
+
+input[type=text]:focus,input[type=password]:focus,input[type=email]:focus 
+{
+    background-color: #95e8d6;
+   
+}
+
+input[type=button], input[type=submit], input[type=reset] 
+{
+    background-color: #95e8d6;
+    border: black;
+    color: #f8e995;
+    padding: 15px 30px;
+    font-style: bold;
+    font-size: 20px;
+    margin: 4px 2px;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 15px;
+    text-align: center;
+    
+    
+    
+}
+#Errors
+{
+    display: flex;
+    justify-content: center;
+}
+
+select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size:12px;
+    font-family: monospace;
+}
+
+select:focus{
+    background-color: #95e8d6;
+}
+
+fieldset legend
+{
+    color:#95e8d6;
+    font-style: bold , italic;
+    font-size: 20px;
+    font-family: monospace;
+    text-align: center;
+ 
+}
+
+fieldset
+{
+    border-radius: 20px;
+}

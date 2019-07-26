@@ -1,0 +1,135 @@
+<!doctype HTML>
+<html>
+
+<head>
+
+    <title>Web 222 Assignmen 5 Registration</title>
+
+    <script src="registration.js"></script>
+
+    <link href="normalize1.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+
+    <div id="Top">
+   
+        <header>
+        
+            <h1>Papii's Online Store For Veld</h1>
+        
+        </header>
+
+   
+        <nav>
+        
+            <ul>
+            <li><a href="index.html"> Home</a></li>
+            <li><a href="registration.html">Registration</a></li>
+            <li>Coming Soon!</li>
+            <li>Coming Soon!</li>
+            </ul>
+    
+         </nav>
+   
+         <section>
+
+        
+            <h2>Please register to recieve up coming deals!</h2>
+        <div id="registration">
+            
+            <form action ="https://httpbin.org/post" method="Post" name="signup" onsubmit="return checkData();">
+               
+                <fieldset>
+                
+                    <legend>Customer Name</legend>
+                
+                    First Name: <input type="text" name"=firstname" autofocus required/><br/>   
+                
+                    Last Name:  <input type="text" name="lastname" required/><br/>
+                     Male  <input type="radio" name="gender" required /><br /> 
+                    Female<input type="radio" name="gender"  required/><br/> 
+
+                
+                </fieldset>
+               
+                <p></p>
+              
+               
+                <fieldset>
+                    <legend>Shipping Address Information</legend>
+                
+                    Unit Number: <input type="text" name"unitNum" /><br/> 
+                
+                    Street Number: <input type="text" name="streetNum" required/><br/>
+                
+                    Street Name: <input type="text" name="StName" required/><br/>
+                
+                    City: <input type="text" name="city" required/><br/>
+                
+                    Province:
+                            <select name="province" id="provinces">
+                        
+                                <option value="Alberta">Alberta</option>
+                                <option value="British Columbia">British Columbia</option>
+                                <option value="Manitoba">Manitoba</option>
+                                <option value="New Brunswick">New Brunswick</option>
+                                <option value="Nova Scotia">Nova Scotia</option>
+                                <option value="ONTARIO">Ontario</option>
+                                <option value="Prince Edward Island">Prince Edward Island</option>
+                                <option value="Quebec">Quebec</option>
+                                <option value="Saskatchewan">Saskatchewan</option>
+                            </select><br/>
+                     Postal Code: <input type="text" name="pstCode" pattern="^(?!.*[DFIOQU])[A-VXYa-vxy][0-9][A-Za-z] ?[0-9][A-Za-z][0-9]$" autofocus required title="format allowed (Letter Digit Letter - Digit Letter Digit)" required/>
+                </fieldset><br/>
+     
+                <fieldset>
+                    Phone Number: <input type="text" pattern="^\d{3}-\d{3}-\d{4}$" autofocus required title="XXX-XXX-XXXX" name="PhoneNum" required/><br/>
+                    Email: <input type="email" name="Email" required/><br/>
+                    Username: <input type="text" name="UsrName" required/><br/>
+                    Password: <input type="password" name="password" id="password" required /><br/>
+                    Confirm Password: <input type="password" name="Confirmpass" id="Confirmpass" required/><br/>
+              
+                    <input type="hidden" name="lastName" id="lastName" value="Bernal-Martinez" />
+                    <input type="hidden" name="studentId" id="studentId" value="036422103" />
+                    
+                </fieldset>
+                
+                <div id="Errors">
+                
+                <input type="submit" value="Submit"/>
+                
+                <input type="reset" value="Reset"/>
+                </div>
+             </form>   
+       
+            </div>
+   
+        </section>
+
+
+<!--Might add something-->
+
+    <aside>
+   
+        <h1>SUMMER DEALS!</h1>
+   
+        <h3> Summer Deals For Veld</h3>
+    <ul>
+            <li><a href="https://www.amazon.ca/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Bandanas" target="deals"> Bandanas</a></li>
+            <li><a href="https://www.amazon.ca/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Rave+Backpack&rh=i%3Aaps%2Ck%3ARave+Backpack" target="dealsk"> BackPacks</a></li>
+            <li><a href="https://www.amazon.ca/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Fanny+pack&rh=i%3Aaps%2Ck%3AFanny+pack" target="deals"> Fanny Packs</a></li>
+            <li><a href="https://www.amazon.ca/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=Rave+mask&rh=i%3Aaps%2Ck%3ARave+mask" target="deals"> Rave Mask</a></li>
+    </ul>
+
+    </aside>
+   
+         <footer>
+          
+            <p>&copy;Fabio Bernal <span>036422103</span></p>
+
+        </footer>
+           
+</body>
+
+</html>
